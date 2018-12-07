@@ -24,7 +24,7 @@ public class AuthenticationTest {
 
     @Test
     public void test() {
-        //1.获取securityManager工厂类
+        //1.获取securityManager实例
         DefaultSecurityManager manager = new DefaultSecurityManager();
         manager.setRealm(simpleAccountRealm);
         //2.主体提交认证请求
