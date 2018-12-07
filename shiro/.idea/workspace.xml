@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c987c5c3-07fb-4504-bd98-0a590bfc8c92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/test/AuthenticationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/test/IniRealmTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/test/JdbcRealmTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/resourse/reaml.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/resources/reaml.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/top/dzygod/test/AuthenticationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/top/dzygod/test/IniRealmTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/top/dzygod/test/JdbcRealmTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/target/classes/reaml.ini" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shiro-test/target/" />
@@ -24,10 +17,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/IniRealmTest.java">
+        <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/CustomRealmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="864">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,11 +43,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java" />
         <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/AuthenticationTest.java" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/IniRealmTest.java" />
         <option value="$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/JdbcRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/CustomRealmTest.java" />
       </list>
     </option>
   </component>
@@ -80,6 +77,122 @@
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
               <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="dzygod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="dzygod" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="dzygod" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="dzygod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="dzygod" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shiro-dzygod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -90,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544165535598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544167045936" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -121,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IniRealmTest.test">
+  <component name="RunManager" selected="JUnit.CustomRealmTest.test">
     <configuration name="AuthenticationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-test" />
       <extension name="coverage">
@@ -132,6 +245,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="java.top.dzygod.test" />
       <option name="MAIN_CLASS_NAME" value="java.top.dzygod.test.AuthenticationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomRealmTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.dzygod.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.dzygod.test" />
+      <option name="MAIN_CLASS_NAME" value="top.dzygod.test.CustomRealmTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -156,6 +285,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomRealmTest.test" />
         <item itemvalue="JUnit.IniRealmTest.test" />
         <item itemvalue="JUnit.AuthenticationTest.test" />
       </list>
@@ -173,17 +303,29 @@
       <updated>1544155840084</updated>
       <workItem from="1544155848756" duration="484000" />
       <workItem from="1544157450441" duration="3519000" />
-      <workItem from="1544165127456" duration="384000" />
+      <workItem from="1544165127456" duration="1800000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="IniRealmTest_test - 2018.12.07 at 14h 52m 33s.xml">
+      <configuration name="IniRealmTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomRealmTest_test - 2018.12.07 at 14h 59m 33s.xml">
+      <configuration name="CustomRealmTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomRealmTest_test - 2018.12.07 at 15h 15m 49s.xml">
+      <configuration name="CustomRealmTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4387000" />
+    <option name="totallyTimeSpent" value="5803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-26" width="1920" height="1106" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973932" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24973932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973932" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -192,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,9 +342,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32931355" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32931355" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32931355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,23 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/AuthenticationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/main/resources/reaml.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -305,8 +430,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/IniRealmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="573">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/AuthenticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/main/java/top/dzygod/shiro/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#2020#2021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-test/src/test/java/top/dzygod/test/CustomRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
