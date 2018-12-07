@@ -2,6 +2,7 @@ package top.dzygod.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.junit.Test;
@@ -20,9 +21,17 @@ public class CustomRealmTest {
         //获取验证管理
         DefaultSecurityManager manager = new DefaultSecurityManager();
         manager.setRealm(realm);
+
+        //密文
+        HashedCredentialsMatcher matcher = new HashedCredentialsMatcher();
+        matcher.setHashAlgorithmName("md5");
+        matcher.setHashIterations(1);
+        realm.setCredentialsMatcher(matcher);
+
         //校验
         SecurityUtils.setSecurityManager(manager);
         Subject subject = SecurityUtils.getSubject();
+
         UsernamePasswordToken token = new UsernamePasswordToken("zhangsan", "123456");
         subject.login(token);
         subject.checkPermissions("user:delete","user:select");
